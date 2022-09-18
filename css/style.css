@@ -25,11 +25,12 @@ body {
   background-color: var(--Very-Dark-Blue);
   background-image: url(../images/bg-mobile.png)  ;
   background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 100vh;
 }
 
 main{
@@ -64,6 +65,7 @@ main{
   background-color: var(--Dark-Blue);
   color: white;
   font-family: var(--font);
+  border-radius: 1rem;
 
 
 }
@@ -199,7 +201,7 @@ main{
   background-size:1600px 400px;
   height: 100vh;
   
- }
+}
   main{
     flex-flow: row;
     gap: 1rem;
