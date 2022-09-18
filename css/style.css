@@ -191,7 +191,12 @@ main{
 }
 
 @media (min-width:1024px){
- body{
+
+  html,body{
+    overflow-x: hidden;
+  }
+
+  body {
   display: flex;
   justify-content: center;
   align-items: center;
